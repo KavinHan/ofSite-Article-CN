@@ -18,7 +18,7 @@ image::images/ofw-logo.png["oF Logo",float="right"]
 
 [quote, openframeworks.cc/about]
 __________________________
-openFrameworks is an http://www.openframeworks.cc/about/license.html[open source] http://en.wikipedia.org/wiki/C%2B%2B"[C++] toolkit designed to assist the creative process by providing a simple and intuitive framework for experimentation. The toolkit is designed to work as a general purpose glue, and wraps together several commonly used libraries, including:
+openFrameworks 是一个提供简易操作骨架的http://www.openframeworks.cc/about/license.html[开源] http://en.wikipedia.org/wiki/C%2B%2B"[C++] 工具。他的用意在于协助大家发掘实验性的新创作。附有的工具箱可以把不同即常用的库联合在一起，这包括了：
 
 - http://www.opengl.org/[OpenGL], http://glew.sourceforge.net/[GLEW], http://www.opengl.org/resources/libraries/glut/[GLUT], http://www.glfw.org/[GLFW], https://code.google.com/p/libtess2/[libtess2] and http://cairographics.org/[cairo] for graphics
 - http://www.music.mcgill.ca/~gary/rtaudio/[rtAudio], http://www.portaudio.com/[PortAudio] or http://www.fmod.org/[FMOD] and http://kissfft.sourceforge.net/[Kiss FFT] for audio input, output and analysis
