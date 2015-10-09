@@ -25,13 +25,13 @@ openFrameworks 是一个提供简易操作骨架的http://www.openframeworks.cc/
 - http://freetype.sourceforge.net/index2.html[FreeType] （字体）
 - http://freeimage.sourceforge.net/[FreeImage] （保存和加载图像）
 - http://developer.apple.com/quicktime/[Quicktime] 和 https://github.com/ofTheo/videoInput[videoInput] （播放和捕捉视频）
-- http://pocoproject.org/[Poco] for a variety of utilities（多用途）
+- http://pocoproject.org/[Poco]（多用途）
 
-The code is written to be massively cross-compatible. Right now we support five operating systems (Windows, OSX, Linux, iOS, Android) and four IDEs (XCode, Code::Blocks, and Visual Studio and Eclipse). The API is designed to be minimal and easy to grasp.
+这里的代码具有大规模跨平台兼容的可能性。至今我们支持的操作系统有五个 (Windows, OSX, Linux, iOS, Android) 和四个 IDEs (XCode, Code::Blocks, Visual Studio 和 Eclipse). The API is designed to be minimal and easy to grasp.
 
-Simply put, openFrameworks is a tool that makes it much easier to make things with code. We find it super useful, and we hope you do too.
+简单来说, openFrameworks is a tool that makes it much easier to make things with code. We find it super useful, and we hope you do too.
 
-openFrameworks is actively developed by http://thesystemis.com/[Zach Lieberman], http://muonics.net/[Theodore Watson], and http://arturocastro.net/[Arturo Castro], with help from the http://www.openframeworks.cc/community/[OF community]. openFrameworks is indebted to two significant precursors: the http://processing.org/[Processing development environment], created by http://reas.com/[Casey Reas], http://benfry.com/[Ben Fry] and the Processing community; and the ACU Toolkit, a privately distributed C++ library developed by Ben Fry and others in the http://acg.media.mit.edu/[MIT Media Lab's Aesthetics and Computation Group].
+openFrameworks 会长期性由 http://thesystemis.com/[Zach Lieberman], http://muonics.net/[Theodore Watson], 和 http://arturocastro.net/[Arturo Castro]开发, with help from the http://www.openframeworks.cc/community/[OF community]. openFrameworks is indebted to two significant precursors: the http://processing.org/[Processing development environment], created by http://reas.com/[Casey Reas], http://benfry.com/[Ben Fry] and the Processing community; and the ACU Toolkit, a privately distributed C++ library developed by Ben Fry and others in the http://acg.media.mit.edu/[MIT Media Lab's Aesthetics and Computation Group].
 __________________________
 
 
