@@ -18,40 +18,40 @@ image::images/ofw-logo.png["oF Logo",float="right"]
 
 [quote, openframeworks.cc/about]
 __________________________
-openFrameworks is an http://www.openframeworks.cc/about/license.html[open source] http://en.wikipedia.org/wiki/C%2B%2B"[C++] toolkit designed to assist the creative process by providing a simple and intuitive framework for experimentation. The toolkit is designed to work as a general purpose glue, and wraps together several commonly used libraries, including:
+openFrameworks 是一个提供简易操作骨架的http://www.openframeworks.cc/about/license.html[开源] http://en.wikipedia.org/wiki/C%2B%2B"[C++] 工具。他的用意在于协助大家发掘实验性的新创作。附有的工具箱可以把不同即常用的库联合在一起，这包括了：
 
-- http://www.opengl.org/[OpenGL], http://glew.sourceforge.net/[GLEW], http://www.opengl.org/resources/libraries/glut/[GLUT], http://www.glfw.org/[GLFW], https://code.google.com/p/libtess2/[libtess2] and http://cairographics.org/[cairo] for graphics
-- http://www.music.mcgill.ca/~gary/rtaudio/[rtAudio], http://www.portaudio.com/[PortAudio] or http://www.fmod.org/[FMOD] and http://kissfft.sourceforge.net/[Kiss FFT] for audio input, output and analysis
-- http://freetype.sourceforge.net/index2.html[FreeType] for fonts
-- http://freeimage.sourceforge.net/[FreeImage] for image saving and loading
-- http://developer.apple.com/quicktime/[Quicktime] and https://github.com/ofTheo/videoInput[videoInput] for video playback and grabbing
-- http://pocoproject.org/[Poco] for a variety of utilities
+- http://www.opengl.org/[OpenGL], http://glew.sourceforge.net/[GLEW], http://www.opengl.org/resources/libraries/glut/[GLUT], http://www.glfw.org/[GLFW], https://code.google.com/p/libtess2/[libtess2] 和 http://cairographics.org/[cairo] （图像）
+- http://www.music.mcgill.ca/~gary/rtaudio/[rtAudio], http://www.portaudio.com/[PortAudio] 或 http://www.fmod.org/[FMOD] 和 http://kissfft.sourceforge.net/[Kiss FFT] （音频输入，输出和分析）
+- http://freetype.sourceforge.net/index2.html[FreeType] （字体）
+- http://freeimage.sourceforge.net/[FreeImage] （保存和加载图像）
+- http://developer.apple.com/quicktime/[Quicktime] 和 https://github.com/ofTheo/videoInput[videoInput] （播放和捕捉视频）
+- http://pocoproject.org/[Poco]（多用途）
 
-The code is written to be massively cross-compatible. Right now we support five operating systems (Windows, OSX, Linux, iOS, Android) and four IDEs (XCode, Code::Blocks, and Visual Studio and Eclipse). The API is designed to be minimal and easy to grasp.
+这里的代码具有大规模跨平台兼容的可能性。至今我们支持的操作系统有五个 (Windows, OSX, Linux, iOS, Android) 和四个 IDEs (XCode, Code::Blocks, Visual Studio 和 Eclipse). 里头包含的 API 设计简略也容易掌握。
 
-Simply put, openFrameworks is a tool that makes it much easier to make things with code. We find it super useful, and we hope you do too.
+简单来说, openFrameworks 是一个把打代码简单化的工具。我们认为这是个可靠的工具，希望你也能体会到。
 
-openFrameworks is actively developed by http://thesystemis.com/[Zach Lieberman], http://muonics.net/[Theodore Watson], and http://arturocastro.net/[Arturo Castro], with help from the http://www.openframeworks.cc/community/[OF community]. openFrameworks is indebted to two significant precursors: the http://processing.org/[Processing development environment], created by http://reas.com/[Casey Reas], http://benfry.com/[Ben Fry] and the Processing community; and the ACU Toolkit, a privately distributed C++ library developed by Ben Fry and others in the http://acg.media.mit.edu/[MIT Media Lab's Aesthetics and Computation Group].
+openFrameworks 会在 http://www.openframeworks.cc/community/[OF 社群]的协助下长期性由 http://thesystemis.com/[Zach Lieberman], http://muonics.net/[Theodore Watson], 和 http://arturocastro.net/[Arturo Castro]不断的开发。 openFrameworks 非常感激两位重要的先导，http://reas.com/[Casey Reas]和 http://benfry.com/[Ben Fry]创造的 the http://processing.org/[Processing开发环境], Processing社群; 和 ACU 工具包, 一个由Ben Fry 和 http://acg.media.mit.edu/[MIT Media Lab's Aesthetics and Computation Group]创建的私自分布C++ 库。
 __________________________
 
 
-Some of these packages (like OpenGL) will be explored in more depth in other parts of the documentation. Most of them do their thing in the background and you will probably never have to worry about them. Each of these libraries have their own syntax, conventions, and quirks, but the beauty of openFrameworks is that you don't have to worry about them -- oF is a single, consistent interface to the functionality that these other libraries provide.
+一些包 (例如 OpenGL) 会在其他文件里深入的被开发。它们一般都在背后操作，完全不会影响到大家。它们特有的库拥有不同的句法，惯例和 quirks, 不过openFrameworks最美妙的地方是你不必为这些操心 -- oF is a single, consistent interface to the functionality that these other libraries provide.
 
 [qanda]
 .Q&A
-Is it a program?::
-    OF is not itself a http://en.wikipedia.org/wiki/Computer_program[program] or an http://en.wikipedia.org/wiki/Software_application[application], but you can use OF to write your own programs and applications.
+这是程序吗？::
+    OF 不是 http://en.wikipedia.org/wiki/Computer_program[程序]，也不是 http://en.wikipedia.org/wiki/Software_application[应用程序], 但是你可以使用 OF 写属于你的程序或应用程序。
 
-Is it a programming language?::
-	OF does not constitute its own http://en.wikipedia.org/wiki/Programming_language[programming language], the language you use to write programs with OF is http://en.wikipedia.org/wiki/C%2B%2B[C++].
+这是程序语言吗？::
+	OF 并没有特别构成自己的 http://en.wikipedia.org/wiki/Programming_language[程序语言], 相反的，OF 是用 http://en.wikipedia.org/wiki/C%2B%2B[C++]来打代码的.
 
-So it's a library?::
-	OF is in fact made up of several http://en.wikipedia.org/wiki/Software_library[software libraries] but the specific way it integrates these libraries together is more appropriately called a software framework.
+那这是库吗？::
+	OF 是由各种不同的 http://en.wikipedia.org/wiki/Software_library[软件库]组成的， but the specific way it integrates these libraries together is more appropriately called a software framework.
 
-What is a software framework?::
-	A http://en.wikipedia.org/wiki/Software_framework[software framework] is a kind of pre-fabricated software infrastructure designed to provide all of the low level functionality needed for an application while allowing a programmer to customize the higher level details of what that application should do. One way that using a framework differs from using a library is that the flow of control is http://en.wikipedia.org/wiki/Inversion_of_control[inverted]. A library can be directly controlled by your code to perform a set of general tasks. In a framework your code responds to events controlled by the framework and uses the framework as an interface to access the functionality of other libraries.
+什么是软件骨架？::
+	http://en.wikipedia.org/wiki/Software_framework[软件骨架] is a kind of pre-fabricated software infrastructure designed to provide all of the low level functionality needed for an application while allowing a programmer to customize the higher level details of what that application should do. One way that using a framework differs from using a library is that the flow of control is http://en.wikipedia.org/wiki/Inversion_of_control[inverted]. A library can be directly controlled by your code to perform a set of general tasks. In a framework your code responds to events controlled by the framework and uses the framework as an interface to access the functionality of other libraries.
 
-Sounds complicated?
+听起来很复杂吗？
 
 In fact many other multimedia authoring environments work this way even if they do so less transparently.
 
